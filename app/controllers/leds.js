@@ -7,9 +7,9 @@ module.exports = function(app) {
     connection: { name: 'raspi', adaptor: 'raspi' },
 
     devices: [
-      { name: 'red', driver: 'led', pin: 15 },
-      { name: 'yellow', driver: 'led', pin: 11 },
-      { name: 'green', driver: 'led', pin: 7 }
+      { name: 'red', driver: 'led', pin: 16 },
+      { name: 'yellow', driver: 'led', pin: 20 },
+      { name: 'green', driver: 'led', pin: 21 }
     ],
 
     work: function (my) {
